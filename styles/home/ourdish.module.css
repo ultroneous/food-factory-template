@@ -1,0 +1,124 @@
+.Heading {
+  font-weight: 700;
+  font-size: 55px;
+  margin: 0%;
+  color: #fff;
+}
+.ButtonContainer {
+  display: flex;
+  justify-content: end;
+  padding-right: 7rem;
+}
+.MainRow {
+  display: flex;
+  align-items: center;
+}
+.ActionButton {
+  margin-right: 1rem;
+  background-color: transparent;
+  border-radius: 100%;
+  height: 63px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 63px;
+  color: #afbed5;
+  font-weight: 900;
+  font-size: 40px;
+  border: 3px solid #afbed5;
+  transition: all 1s ease;
+}
+.ActionButton:hover {
+  color: #fff;
+  background-color: #afbed5;
+  transition: all 1s ease;
+}
+.CardDish {
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 1rem 1.5rem 1rem 1.5rem;
+  padding-top: 0%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 310px !important;
+}
+.Redtag {
+  height: 4rem;
+  width: 5rem;
+  display: flex;
+  align-items: flex-end;
+  position: relative;
+  bottom: 0.5rem;
+  background-image: url(/assets/img/redtag.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.Number {
+  font-weight: 700;
+  font-size: 26px;
+  color: #fff;
+}
+.NameOfDish {
+  font-weight: 700;
+  font-size: 30px;
+  margin-bottom: 0.5rem;
+}
+.Paragraph {
+  font-weight: 400;
+  font-size: 17px;
+  color: #7c8d7c;
+}
+.RowSlider {
+  margin-top: 6rem;
+}
+.ContentCenter {
+  display: flex;
+  justify-content: center;
+}
+.ImageSpace {
+  margin-bottom: 1rem;
+}
+.ButtonCart {
+  padding: 0.5rem 1.5rem;
+  border: 1px solid #99a799;
+  border-radius: 27px;
+  transition: all 0.5s ease;
+  font-weight: 500;
+  font-size: 20px;
+}
+.ButtonCart:hover {
+  color: #fff;
+  transition: all 0.5s ease;
+  background-color: var(--globalOrange);
+}
+@media (min-width: 320px) and (max-width: 450px) {
+  .CardDish {
+    width: 100% !important;
+  }
+  .MobPadding {
+    padding-top: 4rem !important;
+    padding-right: 1rem !important;
+  }
+  .RowSlider {
+    margin-top: 4rem;
+    margin-left: 0.2rem;
+    margin-right: 0.2rem;
+  }
+  .ButtonContainer {
+    margin-top: 3rem;
+    justify-content: flex-start;
+  }
+}
+@media (min-width: 768px) and (max-width: 1080px) {
+  .MobPadding {
+    padding-top: 4rem !important;
+  }
+  .RowSlider {
+    margin-top: 4rem;
+  }
+}
+@media (min-width: 1200px) and (max-width: 1730px) {
+}
+@media (min-width: 650px) and (max-width: 740px) {
+}

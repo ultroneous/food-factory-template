@@ -1,0 +1,105 @@
+.MainHeading {
+  font-weight: 700;
+  font-size: 55px;
+}
+.MainParagraph {
+  max-width: 55rem;
+  font-weight: 400;
+  font-size: 26px;
+  /* position: absolute; */
+  margin: 0%;
+  padding-top: 4.5rem;
+}
+.CircleImage {
+  background-color: var(--globalOrange);
+  width: fit-content;
+  padding: 1rem;
+  border-radius: 100%;
+}
+.CircleImage img {
+  height: 2rem;
+  width: 2rem;
+}
+.CircleWhite {
+  position: relative;
+  top: 1rem;
+  padding: 0.5rem;
+  background-color: #fff;
+  border-radius: 100%;
+}
+.CircleButton {
+  background-color: var(--globalOrange);
+  width: 100%;
+  padding: 1.5rem 2.5rem 0.5rem 2.5rem;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  border-radius: 30px;
+  font-weight: 500;
+  font-size: 21px;
+  color: #fff;
+}
+.CircleGroup {
+  margin-top: 2rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.CircleButtonCol {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ImageBitSpace {
+  padding-right: 2rem;
+}
+.featureRow {
+  justify-content: left;
+}
+@media (min-width: 320px) and (max-width: 450px) {
+  .MainParagraph {
+    position: static;
+    width: 100%;
+    text-align: justify;
+    padding-top: 2rem;
+  }
+  .CircleButton {
+    padding: 1rem 2rem 0.1rem 2rem;
+    font-size: 15px;
+  }
+  .MainHeading {
+    font-size: 40px;
+  }
+  .Mobpadding {
+    padding-right: 1rem !important;
+  }
+  .CircleButtonCol {
+    display: flex;
+    align-items: center;
+  }
+  .SwapColumn {
+    flex-direction: column-reverse;
+  }
+}
+@media (min-width: 768px) and (max-width: 1080px) {
+  .MainHeading {
+    font-size: 40px;
+  }
+  .MainParagraph {
+    position: static;
+    width: 100%;
+    text-align: justify;
+    padding-top: 2rem;
+  }
+  .Mobpadding {
+    padding-right: 4rem !important;
+  }
+  .SwapColumn {
+    flex-direction: column-reverse;
+  }
+}
+@media (min-width: 1200px) and (max-width: 1730px) {
+}
+@media (min-width: 650px) and (max-width: 740px) {
+}

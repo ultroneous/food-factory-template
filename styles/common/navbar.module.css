@@ -1,0 +1,109 @@
+.MobileMenuRow {
+  display: none;
+}
+.ContentCenter {
+  display: flex !important;
+  align-items: center !important;
+  padding-left: 0.5rem;
+}
+.FlexibleColumn {
+  margin-left: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+.ListHead {
+  list-style: none;
+  display: flex;
+  margin: 0%;
+}
+.ListWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ListHead li {
+  font-weight: 500;
+  font-size: 20px;
+  margin-right: 2.9rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+.ListWrapperInput {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.ListHead li:hover {
+  color: var(--globalOrange);
+}
+.SignupBtn {
+  background-color: var(--globalOrange);
+  width: 162px;
+  height: 54px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 27px;
+  color: #fff;
+}
+.SignUpBtnWrraper {
+  margin: 0%;
+}
+.PaddingNone {
+  padding: 0;
+}
+@media (min-width: 320px) and (max-width: 450px) {
+  .NavbarVisibility {
+    display: none;
+  }
+  .MobileMenuRow {
+    padding: 2.5rem 1rem;
+    display: flex;
+    align-items: center;
+  }
+  .MobileMenuIcon {
+    display: flex;
+    justify-content: end;
+  }
+  .MenuBox {
+    padding: 3rem 3rem;
+    background-color: var(--globalBlue);
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+  }
+  .MenuListHead {
+    list-style: none;
+    padding: 0%;
+  }
+  .MenuListHead li {
+    font-size: 20px;
+    margin-bottom: 1.5rem;
+    color: #fff;
+  }
+  .SignupBtnMenu {
+    background-color: var(--globalOrange);
+    width: 162px;
+    height: 54px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 27px;
+    color: #fff;
+  }
+}
+@media (min-width: 768px) and (max-width: 1080px) {
+  .IconContent {
+    display: none;
+  }
+  .ListHead li {
+    margin-right: 2rem;
+  }
+  .Tabpadding {
+    padding-right: 2.5rem !important;
+  }
+}
+@media (min-width: 1200px) and (max-width: 1730px) {
+}
+@media (min-width: 650px) and (max-width: 740px) {
+}

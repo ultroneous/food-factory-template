@@ -1,0 +1,17 @@
+.Container {
+  padding: 4rem 7rem;
+}
+@media (min-width: 320px) and (max-width: 450px) {
+  .Container {
+    padding: 2.5rem 1rem;
+  }
+}
+@media (min-width: 768px) and (max-width: 1080px) {
+  .Container {
+    padding: 2.5rem 4rem;
+  }
+}
+@media (min-width: 1200px) and (max-width: 1730px) {
+}
+@media (min-width: 650px) and (max-width: 740px) {
+}

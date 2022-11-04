@@ -1,0 +1,129 @@
+.FooterFirstRow {
+  display: flex;
+  margin: 0%;
+  align-items: center;
+  margin-bottom: 2.5rem;
+}
+.FooterFirstRowImageSection {
+  width: 70%;
+}
+.FooterFirstRowContentSection {
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
+}
+.GetStartedText {
+  margin: 0%;
+  display: flex;
+  align-items: center;
+  font-weight: 300;
+  font-size: 21px;
+  color: #fff;
+}
+.ButtonWrapper {
+}
+.ListMenu {
+  list-style: none;
+}
+.ListMenu li {
+  font-weight: 300;
+  font-size: 16px;
+  color: #fff;
+  margin-bottom: 1rem;
+  cursor: pointer;
+}
+.ListMenu li:hover {
+  color: var(--globalOrange);
+}
+.NewsLetterContent {
+  display: flex;
+  margin-top: 4rem;
+  cursor: pointer;
+}
+.NewsLetterParagraph {
+  margin-right: 3rem;
+  font-weight: 400;
+  font-size: 13px;
+  color: #fff;
+}
+.NewsLetterParagraph:hover {
+  color: var(--globalOrange);
+}
+.InputContainer {
+}
+.InputWrapper {
+  display: flex;
+  align-items: flex-end;
+}
+.InputWrapper input {
+  border: none;
+  outline: none;
+  background: none;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #afbed5;
+  color: #fff;
+}
+.GroupButton {
+  outline: none;
+  border: none;
+  padding: 1rem 1rem;
+  border-radius: 8px 8px 0px 0px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  color: var(--globalBlue);
+  justify-content: center;
+}
+.GroupButton:hover {
+  background-color: var(--globalOrange);
+}
+.InputWrapper input::placeholder {
+  color: #afbed5;
+  font-weight: 400;
+  font-size: 15px;
+}
+.SubscribeText {
+  font-weight: 300;
+  font-size: 22px;
+  color: #fff;
+  padding-bottom: 1rem;
+}
+.SubscribeText p {
+  margin: 0%;
+  padding-bottom: 0.5rem;
+}
+.ThirdRow {
+  margin-top: 3rem;
+}
+.Hr {
+  color: #fff;
+  opacity: 0.5;
+}
+@media (min-width: 320px) and (max-width: 450px) {
+  .FooterFirstRow {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .FooterFirstRowContentSection {
+    margin-top: 2rem;
+    width: 100%;
+  }
+  .ListMenu {
+    padding: 0%;
+  }
+  .ThirdRow {
+    flex-direction: column-reverse;
+  }
+}
+@media (min-width: 768px) and (max-width: 1080px) {
+  .FooterFirstRowImageSection {
+    width: 50%;
+  }
+  .FooterFirstRowContentSection {
+    width: 50%;
+  }
+}
+@media (min-width: 1200px) and (max-width: 1730px) {
+}
+@media (min-width: 650px) and (max-width: 740px) {
+}
